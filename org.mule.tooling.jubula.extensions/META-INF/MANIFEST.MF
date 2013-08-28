@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Extensions
+Bundle-SymbolicName: org.mule.tooling.jubula.extensions;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.mule.tooling.jubula.extensions.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jubula.toolkit.common;bundle-version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
